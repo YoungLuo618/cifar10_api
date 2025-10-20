@@ -1,4 +1,5 @@
 Author: Jianyang Luo
+
 1.Project Overview：This project implements and deploys a CNN trained on the CIFAR-10 dataset using PyTorch.
 A FastAPI service is built around the trained model to provide an HTTP API endpoint for real-time image classification.
 The project also includes a Dockerfile for containerized deployment to ensure the API can be easily built and run on any machine.
@@ -43,4 +44,5 @@ docker run -d -p 8000:80 \
 # Open the API
 Docs: http://127.0.0.1:8000/docs
 Health check: http://127.0.0.1:8000/health
+
 Root endpoint: http://127.0.0.1:8000/
